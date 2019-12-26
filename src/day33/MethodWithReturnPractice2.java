@@ -6,7 +6,7 @@ public class MethodWithReturnPractice2 {
 
         System.out.println(getDaysOfWeekFromNumber(5));
         System.out.println(getDaysOfWeekFromNumber(16));
-
+        System.out.println(getDaysOfWeekFromNumber2(6));
 
     }
     public static String getDaysOfWeekFromNumber(int dayCode){
@@ -40,5 +40,16 @@ public class MethodWithReturnPractice2 {
       }
               return dayName;
 
+    }
+
+    public static String getDaysOfWeekFromNumber2(int dayCode){
+        String[] daysArray={"Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"};
+        String day="";
+        if(dayCode>0 && dayCode<=7){
+            day=daysArray[dayCode-1];
+        }else{
+            day="FUNDAY";
+        }
+        return day;
     }
 }
