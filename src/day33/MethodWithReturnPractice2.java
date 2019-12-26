@@ -7,6 +7,10 @@ public class MethodWithReturnPractice2 {
         System.out.println(getDaysOfWeekFromNumber(5));
         System.out.println(getDaysOfWeekFromNumber(16));
         System.out.println(getDaysOfWeekFromNumber2(6));
+        int[] allCodes={5,3,11,4,33};
+        for (int eachCode:allCodes){
+            System.out.println("day= "+getDaysOfWeekFromNumber2(eachCode));
+        }
 
     }
     public static String getDaysOfWeekFromNumber(int dayCode){
