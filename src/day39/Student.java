@@ -7,13 +7,16 @@ String name;
 int age;
 char gender;
 
+    public Student() {
+    }
 
-
+    public Student(String name, int id) {
+    }
 
 
     public static void main(String[] args) {
 
-        Student s1=new Student();
+
 
 
 
