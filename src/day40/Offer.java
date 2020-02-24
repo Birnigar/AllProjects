@@ -58,12 +58,12 @@ public boolean is100KOffer(){
     //in below format
     //[Location=Virginia,Company==Amazon | Salary=150000$| isFullTime=true]
 
-    public String toString(){
+     public String toString(){
         String result = "[ Location: " + location + " | Company: " +
-                location + " | Salary: " + salary +
+               location + " | Salary: " + salary +
                 " | isFullTime: " + isFullTime+ "]";
-        return result;
-    }
+       return result;
+   }
 
 
 

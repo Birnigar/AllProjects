@@ -13,9 +13,9 @@ public class MyOffer4 {
 
         System.out.println(o1.toString());
 
-        System.out.println("o1 = " + o1);
-        
-        
+        System.out.println( " o1 = " + o1 );
+
+
 
         Offer o2 = new Offer();
         o2.location = "Boston";
