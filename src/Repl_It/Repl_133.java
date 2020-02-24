@@ -3,7 +3,7 @@ package Repl_It;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class repl_133 {
+public class Repl_133 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

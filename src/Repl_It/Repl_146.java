@@ -2,7 +2,7 @@ package Repl_It;
 
 import java.util.Scanner;
 
-public class repl_146 {
+public class Repl_146 {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
         System.out.println("enter first number:");
