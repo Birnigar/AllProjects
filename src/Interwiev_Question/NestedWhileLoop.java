@@ -1,0 +1,21 @@
+package Interwiev_Question;
+
+public class NestedWhileLoop {
+    public static void main(String[] args) {
+        int x=20;
+        while (x>0){
+            do {
+                x=x-2;
+
+            }while (x>5);
+            x--;
+            System.out.println(x+"\t");
+        }
+
+
+    }
+
+
+
+
+}
