@@ -17,6 +17,6 @@ public class Singleton {
     }
 
     private Singleton(){
-        System.out.println("No Arg COnstructor Being Called");
+        System.out.println("No Arg Constructor Being Called");
     }
 }

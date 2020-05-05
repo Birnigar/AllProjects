@@ -8,6 +8,6 @@ public class LeapYear {
 
     }
     public static boolean isLeapYear(int year){
-        return ( year>=0 && year<=9999) && (year %400==0 || (year%4 ==0 && year %100!=0))  ;
+        return ( year>=0 && year<=9999) && (year %400==0 || (year%4 ==0 && year%100!=0))  ;
     }
 }
